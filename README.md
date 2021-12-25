@@ -4,3 +4,14 @@
 <h2>Installation</h2>
 
 This project use Laravel/UI package for authentication. 
+
+<h2>Database Configuration</h2>
+
+To configure database settings, please replace '.env.example' file to .env file in the root directory.Find below code and enter your database name, username and password as shown below. 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=chat_project_2
+DB_USERNAME=username
+DB_PASSWORD=password
