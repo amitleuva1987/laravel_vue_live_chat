@@ -23,11 +23,22 @@ After this, please run "php artisan migrate" from the console.
 
 <h2>Setting up Pusher</h2>
 Please create an account with <a href="https://pusher.com">pusher</a> and create an app with pusher. Then, update your pusher settings in .env file as shown in below code.
+
 <div style="background:#ccc">
 <pre>
 PUSHER_APP_ID=id
 PUSHER_APP_KEY=key
 PUSHER_APP_SECRET=secreat
 PUSHER_APP_CLUSTER=cluster
+</pre>
+</div>
+
+
+<h2>Run the project</h2>
+run the 'npm run dev' command along with 'php artisan serve' and open your browser and type http://localhost:8000
+<div style="background:#ccc">
+<pre>
+npm run dev
+php artisan serve
 </pre>
 </div>
