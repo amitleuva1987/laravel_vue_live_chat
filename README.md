@@ -18,3 +18,16 @@ DB_USERNAME=username
 DB_PASSWORD=password
 </pre>
 </div>
+
+After this, please run "php artisan migrate" from the console.
+
+<h2>Setting up Pusher</h2>
+Please create an account with <a href="https://pusher.com">pusher</a> and create an app with pusher. Then, update your pusher settings in .env file as shown in below code.
+<div style="background:#ccc">
+<pre>
+PUSHER_APP_ID=id
+PUSHER_APP_KEY=key
+PUSHER_APP_SECRET=secreat
+PUSHER_APP_CLUSTER=cluster
+</pre>
+</div>
